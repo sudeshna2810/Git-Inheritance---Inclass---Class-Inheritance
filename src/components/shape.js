@@ -14,7 +14,7 @@ Note: Don't remove any file from the cloned repo, otherwise all test cases will 
 
 // declare class
 
-export default class Shape {  // es6 default export syntax
+module.exports = class Shape {  // es6 default export syntax
     constructor() {
         this.color = "blue";
     }

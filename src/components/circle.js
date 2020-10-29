@@ -7,7 +7,7 @@
 import Shape from './shape';
 
 // Circle Class extending Shape Class
-export default class Circle extends Shape {
+module.exports = class Circle extends Shape {
     constructor() {
         // first line of subclass constructor should call superclass constructor with appropriate parameters
         super();
